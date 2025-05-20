@@ -5,7 +5,7 @@
 | `%% Todoist Start %%`<br>`%% Todoist End %%`                                       | Start block and End block.                           |
 | `%% Todoist Start [today \| overdue] %%`<br>`%% Todoist End [today \| overdue] %%` | Add Filters.                                         |
 | `\|`<br>`&`<br>`!`                                                                 | Operators:<br>Add (`\|`), Subtract (`&`), Not (`!`). |
-| `%% Todoist Start %%`<br>`%% Todoist End %%`<br>or `all`                           | Fetch all active tasks.                              |
+| `%% Todoist Start %%`<br>`%% Todoist End %%`<br>or with `[all]` filter.            | Fetch all active tasks.                              |
 | `today`                                                                            | Fetch only today's tasks.                            |
 | `overdue`                                                                          | Fetch overdue tasks.                                 |
 | `tomorrow`                                                                         | Fetch tomorrow's tasks.                              |
