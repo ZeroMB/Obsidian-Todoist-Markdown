@@ -1,0 +1,10 @@
+{
+	"id": "todoist-markdown",
+	"name": "Todoist Markdown",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Sync Todoist tasks as markdown with Obsidian.",
+	"author": "Zer0",
+	"authorUrl": "https://github.com/ZeroMB",
+	"isDesktopOnly": false
+}
