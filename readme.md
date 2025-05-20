@@ -3,16 +3,16 @@
 | Format                                                                             | Usecase                                              |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | `%% Todoist Start %%`<br>`%% Todoist End %%`                                       | Start block and End block.                           |
-| `%% Todoist Start [today \| overdue] %%`<br>`%% Todoist End [today \| overdue] %%` | Add Filters.                                         |
+| `%% Todoist Start [today \| overdue] %%`<br>`%% Todoist End [today \| overdue] %%` | Add single or multiple filters.                      |
 | `\|`<br>`&`<br>`!`                                                                 | Operators:<br>Add (`\|`), Subtract (`&`), Not (`!`). |
 | `%% Todoist Start %%`<br>`%% Todoist End %%`<br>or with `[all]` filter.            | Fetch all active tasks.                              |
-| `today`                                                                            | Fetch only today's tasks.                            |
-| `overdue`                                                                          | Fetch overdue tasks.                                 |
-| `tomorrow`                                                                         | Fetch tomorrow's tasks.                              |
-| `#Project-Name`                                                                    | Fetch projects tasks with there name.                |
-| `p1`, `p2`, `p3`, `p4`                                                             | Filter with priority [`today & p1`].                 |
-| `!subtask`                                                                         | Do not fectch sub tasks.                             |
-| `completed`                                                                        | Fetch completed tasks.                               |
+| `[today]`                                                                          | Fetch only today's tasks.                            |
+| `[overdue]`                                                                        | Fetch overdue tasks.                                 |
+| `[tomorrow]`                                                                       | Fetch tomorrow's tasks.                              |
+| `[#Project-Name]`                                                                  | Fetch projects tasks with there name.                |
+| `[p1]`, `[p2]`, `[p3]`, `[p4]`                                                     | Filter with priority `[today & p1]`.                 |
+| `[!subtask]`                                                                       | Do not fectch sub tasks.                             |
+| `[completed]`                                                                      | Fetch completed tasks.                               |
 
 
 ### Todo
